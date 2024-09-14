@@ -5,12 +5,12 @@ using namespace std;
 
 int main() {
     
-    char stroka[] = {"AaBbCcDdEeFfGgggggg"};
+    char stroka[] = {"Aaa1323#aa"};
 
     int count;
     
     for (char i : stroka) {
-        if (i >= 'A' && i <= 'Z') {
+        if (i == 'A' || i == 'a') {
            count++;
          }
     }
