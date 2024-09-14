@@ -10,8 +10,7 @@ int main() {
     int size = sizeof(stroka) / sizeof(stroka[0]);
     
     for (int i = 0; i < size; i++) {
-        char ch = stroka[i]-32;
-        stroka[i] = ch;
+        stroka[i] = stroka[i]-32;
     }
    
     cout << stroka;
