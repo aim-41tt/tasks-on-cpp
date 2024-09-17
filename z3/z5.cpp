@@ -13,6 +13,6 @@ int main() {
     int indexMaxValue = maxValue-arr;
 
     cout<< "позиция максимального элемента массива: " << indexMaxValue <<endl;
-
-
+	
+    return 0;
 }

@@ -21,5 +21,6 @@ int main() {
     cout<< sum<<endl;
 
     delete []arr;
-
+    
+    return 0;
 }
